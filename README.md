@@ -21,7 +21,7 @@ Antes de empezar, asegúrate de tener instalado en tu computadora:
 Abre una terminal y ejecuta:
 
 ```bash
-git clone https://github.com/Gabo2911/ingenia-hub.git
+https://github.com/Gabo31029/Ingenia-Hub.git
 cd ingenia-hub
 
 En este repositorio encontrarás dos carpetas principales:
