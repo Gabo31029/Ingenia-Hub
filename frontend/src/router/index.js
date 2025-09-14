@@ -8,8 +8,8 @@ import Profile from '../views/Profile.vue'
 import Chats from '../views/Chats.vue'
 
 const routes = [
-  { path: '/login', component: Login },
-  { path: '/register', component: Register },
+  { path: '/login', component: Login, name: 'Login' },
+  { path: '/register', component: Register, name: 'Register' },
   { path: '/feed', component: Feed },
   { path: '/profile', component: Profile },
   { path: '/chats', component: Chats },
