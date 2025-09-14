@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  /* Títulos responsivos */
+  .text-fluid-lg {
+    font-size: clamp(1rem, 2vw, 1.25rem); /* 16px → 20px */
+  }
+
+  /* Texto mediano */
+  .text-fluid-md {
+    font-size: clamp(0.8rem, 1.5vw, 1rem); /* 12.8px → 16px */
+  }
+
+  /* Texto pequeño (acciones footer) */
+  .text-fluid-sm {
+    font-size: clamp(0.75rem, 1.5vw, 0.95rem); /* 12px → 15px */
+  }
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
