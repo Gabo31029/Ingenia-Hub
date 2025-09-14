@@ -27,7 +27,9 @@ const iconosSVG = {
 }
 </script>
 <template>
-  <div class="flex items-center gap-2 px-2 py-2 relative shadow-sm md:h-[70px] justify-evenly">
+  <div
+    class="sticky top-0 z-50 bg-white flex items-center gap-2 px-2 py-2 shadow-sm md:h-[70px] justify-evenly"
+  >
     <div class="flex gap-5 max-w-2xl flex-1 order-1 sm:order-0 justify-center">
       <RouterLink to="/feed" class="hidden sm:flex items-center gap-2">
         <span v-html="iconosSVG.logo" class="flex h-7"></span>

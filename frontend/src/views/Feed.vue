@@ -1,5 +1,6 @@
 <script setup>
 import CardFeed from "../components/CardFeedPrincipal.vue";
+import CrearPublicaciónFeed from "../components/CrearPublicaciónFeed.vue";
 
 const posts = [
   {
@@ -50,8 +51,9 @@ const posts = [
 
 <template>
   <div class="flex justify-center sm:bg-[#F4F2EE]">
-    <div class="flex flex-col items-center gap-3 my-6 max-w-lg w-full">
-      <CardFeed
+    <div class="flex flex-col items-center gap-3 my-3 sm:my-6 max-w-lg w-full">
+        <CrearPublicaciónFeed />
+        <CardFeed
         v-for="post in posts"
         :key="post.id"
         :titulo="post.titulo"

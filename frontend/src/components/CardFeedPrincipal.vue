@@ -29,11 +29,11 @@ const user = `<svg width=100% height=100% viewBox="0 0 55 56" fill="none" xmlns=
 
 <template>
   <div
-    class="bg-white text-card-foreground flex flex-col rounded-xl border max-w-lg w-full"
+    class="bg-white text-card-foreground flex flex-col border rounded-xl border-t-0 sm:border-t-base max-w-lg w-full"
   >
     <!-- Header -->
     <div
-      class="grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-3 sm:px-6 pt-6 grid-cols-[1fr_auto] border-b pb-2"
+      class="grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-3 sm:px-6 pt-4 grid-cols-[1fr_auto] border-b pb-2"
     >
     <div class="flex gap-3 items-center py-1">
       <span v-if="userImg === ''" v-html="user" class="flex w-6  md:w-7"></span>
