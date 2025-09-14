@@ -22,7 +22,7 @@
 
           
           <div class="space-y-14">
-            <div class="bg-[#5B9F9F] rounded-xl p-3 flex items-center gap-3">
+            <div class="bg-[#5B9F9F] rounded-xl p-3 flex items-center gap-3 max-w-2xl mx-auto ml-12">
               <div class="w-12 h-12 bg-white/40 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="4" y="4" width="16" height="16" rx="3" fill="#316878"/>
@@ -35,10 +35,10 @@
               </div>
               <div class="text-left">
                 <h3 class="font-poppins font-semibold text-[#110A16] mb-1 text-left" style="font-size:1.35rem;">Lanza proyectos</h3>
-                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Transforma tus ideas en proyectos con equipos multidisciplinarios</p>
+                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Transforma tus ideas en proyectos con equipos multidisciplinarios.</p>
               </div>
             </div>
-            <div class="bg-[#5B9F9F] rounded-xl p-4 flex items-center gap-4">
+            <div class="bg-[#5B9F9F] rounded-xl p-4 flex items-center gap-4 max-w-2xl mx-auto ml-12">
               <div class="w-12 h-12 bg-white/40 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="10" r="4" fill="#316878"/>
@@ -47,10 +47,10 @@
               </div>
               <div class="text-left">
                 <h3 class="font-poppins font-semibold text-[#110A16] mb-1 text-left" style="font-size:1.35rem;">Red profesional</h3>
-                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Conecta con profesionales y expande tu red</p>
+                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Conecta con profesionales y expande tu red.</p>
               </div>
             </div>
-            <div class="bg-[#5B9F9F] rounded-xl p-4 flex items-center gap-4">
+            <div class="bg-[#5B9F9F] rounded-xl p-4 flex items-center gap-4 max-w-2xl mx-auto ml-12">
               <div class="w-12 h-12 bg-white/40 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg class="w-7 h-7 text-[#316878]" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
@@ -58,7 +58,7 @@
               </div>
               <div class="text-left">
                 <h3 class="font-poppins font-semibold text-[#110A16] mb-1 text-left" style="font-size:1.35rem;">Comunidad activa</h3>
-                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Únete a una comunidad que apoya el crecimiento y la innovación</p>
+                <p class="font-inter text-[#110A16] text-left" style="font-size:1.1rem;">Únete a una comunidad que apoya el crecimiento y la innovación.</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
 
     
     <div class="lg:w-1/2 p-16 flex flex-col justify-center h-full items-start overflow-y-auto">
-            <div class="w-full max-w-xl font-inter">
+            <div class="w-full max-w-xl font-inter ml-24">
             <div class="mb-8">
               <div class="flex flex-col items-start">
                 <h2 class="font-poppins text-2xl lg:text-3xl font-semibold mb-2 text-left" style="color: #316878;">
